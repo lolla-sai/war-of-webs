@@ -45,3 +45,31 @@ section {
     margin-top: 1rem;
     padding: clamp(.5rem, 1vw, 4rem);
 }
+
+.cards {
+    gap: 1rem;
+    margin: 2rem 1rem;
+}
+.cards>.card {
+    flex: 50%;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+ol li {
+    border: none;
+}
+
+ol li::before {
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #518ffc;
+    padding: 5px;
+}
